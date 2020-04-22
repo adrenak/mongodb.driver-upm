@@ -1,6 +1,6 @@
 {
 	"name": "com.adrenak.mongodb.driver.upm",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"displayName": "MongoDB C# Driver",
 	"description": "UPM Package of the MongoDB C# Driver. Does NOT always stay updated.",
 	"unity": "2018.4",
