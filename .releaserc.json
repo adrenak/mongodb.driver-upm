@@ -5,14 +5,14 @@
     "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", { 
       "preset": "angular",
-      "changelogFile":"Assets/mongodb.driver-upm/CHANGELOG.md"
+      "changelogFile":"Assets/mongodb.driver.unity/CHANGELOG.md"
     }],
     ["@semantic-release/npm", { 
       "npmPublish": false,
-      "pkgRoot":"Assets/mongodb.driver-upm/"
+      "pkgRoot":"Assets/mongodb.driver.unity/"
     }],
     ["@semantic-release/git", {
-      "assets": ["Assets/mongodb.driver-upm/package.json", "Assets/mongodb.driver-upm/CHANGELOG.md"],
+      "assets": ["Assets/mongodb.driver.unity/package.json", "Assets/mongodb.driver.unity/CHANGELOG.md"],
       "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
     "@semantic-release/github"
